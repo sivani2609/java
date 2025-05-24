@@ -1,0 +1,13 @@
+//Find Largest element in an array 
+class demo{
+    public static void main(String args[]){
+        int[] numbers={12,24,36,48,60,77,34,23};
+        int largest=numbers[0];
+        for(int i=1;i<=7;i++){
+            if(numbers[i]>largest){
+                largest=numbers[i];
+            }
+        }
+        System.out.println("largest element:"+largest);
+    }
+}
